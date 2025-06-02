@@ -1,17 +1,17 @@
 import "./_styles/globals.css";
 
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Inter, DM_Sans } from "next/font/google";
 import Navbar from "./_components/Navigation/Navbar";
 import SmoothScroll from "@/components/smooth-scroll";
 
-const InterFont = localFont({
-  src: "../public/fonts/inter.ttf",
+const InterFont = Inter({
+  subsets: ["latin"],
   variable: "--font-inter",
 });
 
-const DMSans = localFont({
-  src: "../public/fonts/dmsans.ttf",
+const DMSans = DM_Sans({
+  subsets: ["latin"],
   variable: "--font-dm-sans",
 });
 
