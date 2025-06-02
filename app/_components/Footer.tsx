@@ -97,9 +97,9 @@ export default function Footer() {
           <a
             target="_blank"
             className="hover:scale-110 transition-transform duration-150"
-            href="https://karthikeyanj.netlify.app/"
+            href="https://aahrbitx.in"
           >
-            <Image src="/logo.svg" alt="logo" width={50} height={100} />
+            <Image src="/logo.png" alt="logo" width={50} height={100} />
           </a>
         </div>
         <ul className="flex items-center gap-x-4 w-full justify-center">

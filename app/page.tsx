@@ -3,10 +3,10 @@ import IllustrationSection from "./_components/IllustrationSection";
 import Section1 from "./_components/AboutSection/section1";
 import Section2 from "./_components/AboutSection/section2";
 import FeaturesSection from "./_components/FeaturesSection";
-import StatisticsSection from "./_components/StatisticsSection";
 import PricingSection from "./_components/PricingSection";
 import FAQSection from "./_components/FAQsection";
 import Footer from "./_components/Footer";
+import BlogsSection from "./_components/blogsSection";
 
 export const metadata = {
   title: "Metafy - Modern Project Template",
@@ -30,7 +30,7 @@ export default function Home() {
       <Section1 />
       <FeaturesSection />
       <Section2 />
-      <StatisticsSection />
+      <BlogsSection />
       <PricingSection />
       <FAQSection />
       <Footer />

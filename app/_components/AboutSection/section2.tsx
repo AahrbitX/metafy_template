@@ -1,5 +1,5 @@
 import GradientButton from "@/components/ui/GradientButton";
-import Content from "./content";
+import Content1 from "./content1";
 import AboutSection from "./wrapper";
 
 export default function Section2() {
@@ -18,7 +18,7 @@ export default function Section2() {
           <GradientButton>Get Started</GradientButton>
         </div>
       </div>
-      <Content />
+      <Content1 />
     </AboutSection>
   );
 }

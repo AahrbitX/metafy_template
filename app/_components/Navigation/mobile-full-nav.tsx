@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { usePathname } from "next/navigation";
 import {
   MobileNav,
   MobileNavHeader,
@@ -20,7 +19,6 @@ type NavProps = {
 };
 
 function MobileFullNavigation(props: NavProps) {
-  const pathname = usePathname();
   const { navItems } = props;
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

@@ -1,5 +1,5 @@
 import GradientButton from "@/components/ui/GradientButton";
-import Content from "./content";
+import Content from "./content2";
 import AboutSection from "./wrapper";
 
 export default function Section1() {

@@ -1,4 +1,3 @@
-import { GradientBackground } from "@/components/gradient-bg";
 import Image from "next/image";
 
 export default function IllustrationSection() {

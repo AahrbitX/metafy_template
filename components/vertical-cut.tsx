@@ -122,7 +122,7 @@ const VerticalCutReveal = forwardRef<VerticalCutRevealRef, TextProps>(
         }
         return Math.abs(staggerFrom - index) * staggerDuration;
       },
-      [elements.length, staggerFrom, staggerDuration]
+      [staggerFrom, staggerDuration, splitBy, elements]
     );
 
     const startAnimation = useCallback(() => {
@@ -141,7 +141,7 @@ const VerticalCutReveal = forwardRef<VerticalCutRevealRef, TextProps>(
       if (autoStart) {
         startAnimation();
       }
-    }, [autoStart]);
+    }, [startAnimation, autoStart]);
 
     const variants = {
       hidden: { y: reverse ? "-100%" : "100%" },
